@@ -1,0 +1,30 @@
+/* Ensure the body, HTML, and map container fill the full viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+/* General styling for the page */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Styling for the header */
+h1 {
+  color: #333;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box; /* Ensures padding doesn't affect element width */
+}
